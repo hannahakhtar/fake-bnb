@@ -1,0 +1,6 @@
+{
+  "name": "backend", 
+  "dependencies": {
+    "flask": "^2.1.3"
+  }
+}
