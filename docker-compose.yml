@@ -1,0 +1,17 @@
+version: 3,
+
+services:
+  frontend:
+    container_name: fake-bnb-frontend
+    image: fake-bnb-frontend
+    build: ./frontend/Dockerfile
+    ports:
+      - 3000:3000
+      - 49153:49153
+    volumes:
+      - ./frontend:/usr/app
+      - /usr/app/node_modules
+      - /usr/app/.next
+    environment:
+      - "NODE_ENV=development"
+    restart: always

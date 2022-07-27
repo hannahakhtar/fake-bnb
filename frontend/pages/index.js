@@ -23,7 +23,7 @@ export default function Home() {
         <meta name="description" content="Created by Hannah Akhtar" />
         <link rel="icon" href="logo.png" />
       </Head>
-      <h1>Hello</h1>
+      <h1>I WORK!</h1>
     </div>
   );
 }
